@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav .logo img {
+    border-radius: 25px;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav .logo h1 {
+    font-size: 20px;
+    margin-left: 5px;
+    color: crimson;
+}
+
+.nav .menu {
+    display: flex;
+}
+
+.nav .menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav .menu ul li a {
+    color: crimson;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.nav .menu ul li {
+    margin-right: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .myform {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.container .myform input {
+    margin-bottom: 25px;
+}
+
+.container .myform label {
+    font-size: 24px;
+    color: crimson;
+    align-items: center;
+}
+
+.container .myform button {
+    border-radius: 25px;
+    background: crimson;
+    color: white;
+    margin-top: 20px;
+    padding: 4px 3px 4px 3px;
+}
+
+#item {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#item .container1 table {
+    margin: 10px;
+    width: 100%;
+}
+
+#item .container1 table th {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}

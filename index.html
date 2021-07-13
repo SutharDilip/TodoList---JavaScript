@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Todo List</title>
+</head>
+
+<body>
+    <navbar id='navbar'>
+        <div class="nav">
+            <div class="logo">
+                <img src="/P - 2/business-2717063_1920.jpg" width="50px" height="50px" alt="">
+                <h1>Todo List</h1>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li> <a href="">Home</a> </li>
+                    <li> <a href="">About Us</a> </li>
+                    <li> <a href="">Contact Us</a> </li>
+                    <li> <a href="">Feedback</a> </li>
+                </ul>
+            </div>
+        </div>
+    </navbar>
+    <h1>Todo List</h1>
+    <div class="container">
+
+        <div class="myform">
+            <div class="form-group">
+                <label for="name">Name :</label>
+                <input id="title" type="text" name="">
+            </div>
+            <div class="form-group">
+                <label for="desc">  Description : </label>
+                <textarea id="description" name="desc" cols="30" rows="4">
+                  
+                </textarea>
+            </div>
+            <div class="form-group">
+                <button id="Adding">Add to cart</button>
+            </div>
+            <div class="form-group">
+                <button id="Adding" onclick="alclr()">clearing to cart</button>
+            </div>
+        </div>
+    </div>
+    <div id="item">
+        <h2>Your Item</h2>
+        <div class="container1">
+            <table class="table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Sr</th>
+                            <th>ItemTitle</th>
+                            <th>ItemDesc</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tablebody">
+                        <tr>
+                            <th>1</th>
+                            <td>Get some Coffe</td>
+                            <td>You need coffee as you are coder</td>
+                            <td><button>Delete</button></td>
+
+                        </tr>
+                    </tbody>
+
+
+                </table>
+            </table>
+        </div>
+
+    </div>
+    <script src=" ./script.js "></script>
+
+</body>
+
+</html>
